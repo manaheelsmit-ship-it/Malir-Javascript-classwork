@@ -1,0 +1,17 @@
+.custom{
+background-color: blue;
+}
+.form{
+    width: 30%;
+    border: 1px solid none;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgb(186, 139, 139);
+ 
+}
+.main {
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99vh;
+}

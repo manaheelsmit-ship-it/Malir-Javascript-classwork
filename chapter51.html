@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function data(){
+            var userName = document.getElementById("userName").value
+            var getPass = document.getElementById("pass").value
+            document.getElementById("result").innerHTML = userName
+            document.getElementById("password").innerHTML = getPass
+            console.log(userName, getPass)
+        }
+        function change(){
+            document.getElementById("text").innerHTML = "inner html"
+        }
+    </script>
+</head>
+<body>
+    <input type="text" placeholder="enter your name"  id="userName"/>
+    <input type="password" placeholder="enter your password" id="pass"/>
+    <button onClick="data()">submit</button>
+    <p id="result"></p>
+    <p id="password"></p>
+    <!-- <p id="text">hello world</p>
+    <button onclick="change()">change</button> -->
+</body>
+</html>
