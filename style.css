@@ -15,3 +15,10 @@ background-color: blue;
     align-items: center;
     height: 99vh;
 }
+.heading{
+ font-size: 80px;
+ background-color: blueviolet;
+}
+.hidden{
+    display: none;
+}
