@@ -242,9 +242,57 @@
 //     i++;
 // }while(i < 0)
 
-function data(event) {
-        event.preventDefault(); 
-    var user = document.getElementById("inputEmail4").value
-    var password = document.getElementById("inputPassword4").value
-    console.log(user, password)
+// function data(event) {
+//         event.preventDefault(); 
+//     var user = document.getElementById("inputEmail4").value
+//     var password = document.getElementById("inputPassword4").value
+//     console.log(user, password)
+// }
+
+
+
+// objects
+// var userName = prompt("what is your name ?",'john')
+var studentData = {
+    name: "userName",
+    class: 5,
+    age: 15,
+    gender: "male",
+    method: function () {
+        console.log(this.name, "he can eat ")
+    }
 }
+studentData.class = 8
+studentData.school = "ABC School",
+    delete studentData.class
+studentData.method()
+var data = [
+    {
+        name: "userName",
+        class: 5,
+        age: 15,
+        gender: "male",
+        method: function () {
+            console.log(this.name, "he can eat ")
+        }
+    },
+    {
+        name: "userName",
+        class: 5,
+        age: 15,
+        gender: "male",
+        method: function () {
+            console.log(this.name, "he can eat ")
+        }
+    },
+    {
+        name: "userName",
+        class: 5,
+        age: 15,
+        gender: "male",
+        method: function () {
+            console.log(this.name, "he can eat ")
+        }
+    }
+]
+console.log(data[2].gender)
