@@ -253,46 +253,211 @@
 
 // objects
 // var userName = prompt("what is your name ?",'john')
-var studentData = {
-    name: "userName",
-    class: 5,
-    age: 15,
-    gender: "male",
-    method: function () {
-        console.log(this.name, "he can eat ")
-    }
+// var studentData = {
+//     name: "userName",
+//     class: 5,
+//     age: 15,
+//     gender: "male",
+//     method: function () {
+//         console.log(this.name, "he can eat ")
+//     }
+// }
+// studentData.class = 8
+// studentData.school = "ABC School",
+//     delete studentData.class
+// studentData.method()
+// var data = [
+//     {
+//         name: "userName",
+//         class: 5,
+//         age: 15,
+//         gender: "male",
+//         method: function () {
+//             console.log(this.name, "he can eat ")
+//         }
+//     },
+//     {
+//         name: "userName",
+//         class: 5,
+//         age: 15,
+//         gender: "male",
+//         method: function () {
+//             console.log(this.name, "he can eat ")
+//         }
+//     },
+//     {
+//         name: "userName",
+//         class: 5,
+//         age: 15,
+//         gender: "male",
+//         method: function () {
+//             console.log(this.name, "he can eat ")
+//         }
+//     }
+// ]
+// console.log(data[2].gender)
+// var plan1 = {
+//     name: "basic",
+//     rate: "20$",
+//     quantity: "20 pages"
+// }
+// var plan2 = {
+//     name: "pro",
+//     rate: "40$",
+//     quantity: "40 pages"
+// }
+// var plan3 = {
+//     name: "premium",
+//     rate: "60$",
+//     quantity: "60 pages"
+// }
+// console.log(
+//     "username" in plan3
+// )
+// function Plan(name, rate, quantity) {
+//     this.userName = name,
+//         this.price = rate,
+//         this.quantity = quantity,
+//         Plan.prototype.calculate = function () {
+//             return this.price * 2
+//         }
+// }
+
+// var plan1 = new Plan("basic", 20, "20 pages")
+// var plan2 = new Plan("pro", "40$", "40 pages")
+// var plan3 = new Plan("premium", "60$", "60 pages")
+
+// console.log(plan1.calculate())
+
+
+
+// advance javascript
+// var userName = "admin"
+//  userName = "john"
+
+
+// let userName = "admin"
+//  userName = "john"
+
+//  const userData = "admin"
+//  userData = "john "
+
+
+//  template literals
+// var data = "admin "
+// console.log("my name is " + data )
+// console.log(`My name is ${data}. i am 10 years old `)
+
+
+
+
+//------------------>// Arrow function 
+
+// function userData() {
+//     console.log("hello world")
+// }
+// userData()
+
+// let userDataForm = (a, b) => {
+//     var result = a + b
+//     console.log(result)
+// }
+// userDataForm(1, 2)
+
+// let userDataForm2 = (a, b) => console.log(a+b)
+// userDataForm2(1, 2)
+
+// function userData(num1, num2) {
+//     this.num1 = num1,
+//         this.num2 = num2
+// }
+// const result = new userData(2, 3)
+// console.log(result)
+
+
+// let data = (studentName)=>{
+//     this.name = studentName
+// }
+// const result = new data(2)
+// console.log(result)
+
+// const obj ={
+//     name:"john",
+//     age:24,
+//     gender:"male", 
+//     method: function(){
+//         console.log(this.name)
+//     }
+// }
+// obj.method()
+
+
+// const obj ={
+//     name:"john",
+//     age:24,
+//     gender:"male", 
+//     method: function (){
+//         let data = ()=>{
+//             console.log(this.name)
+//         }
+//         data()
+//     }
+// }
+// obj.method()
+
+
+//  ------->default parameters
+
+// function data(num = "john",age =2){
+//     console.log(num,age)
+// }
+// data("admin",10)
+
+
+//spread operators
+
+// var arr1 = [1, 2, 4, 5, 6, 8]
+// var arr2 = [5, 7, 3, 2, 5, 6]
+// var result = [...arr1, ...arr2, 10, 2, 4, 7, 5, 3,]
+// console.log(result)
+
+// const male = {
+//     age: 20,
+//     class: 16
+// }
+// const data = {
+//     name:"john", 
+//     ...male
+// }
+// console.log(data)
+
+
+// function responsiblity (a,b,c,d,e){
+// console.log(a,b,c,d,e)
+// }
+// var arr =[1,2,34,5,7,8]
+// responsiblity(...arr)
+
+
+//rest operators
+// collect values
+// many to one
+// destrcutring objects and functions parameters
+
+const studentData = {
+    name:"admin", 
+    age:20, 
+    gender:"male", 
+    school:"abc school", 
 }
-studentData.class = 8
-studentData.school = "ABC School",
-    delete studentData.class
-studentData.method()
-var data = [
-    {
-        name: "userName",
-        class: 5,
-        age: 15,
-        gender: "male",
-        method: function () {
-            console.log(this.name, "he can eat ")
-        }
-    },
-    {
-        name: "userName",
-        class: 5,
-        age: 15,
-        gender: "male",
-        method: function () {
-            console.log(this.name, "he can eat ")
-        }
-    },
-    {
-        name: "userName",
-        class: 5,
-        age: 15,
-        gender: "male",
-        method: function () {
-            console.log(this.name, "he can eat ")
-        }
-    }
-]
-console.log(data[2].gender)
+const { ...others} = studentData
+// console.log(name)
+console.log(others)
+
+function restOperators(a,d,...num){
+    console.log(a)
+    console.log(d)
+    console.log(num)
+}
+const arr = [1,2,4,5,7,9,0,5,3,2,5]
+restOperators(...arr)
