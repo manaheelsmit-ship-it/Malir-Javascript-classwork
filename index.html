@@ -1,168 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="./style.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script>
-        function popup() {
-            alert("user signup successfully!")
-        }
-        function expand() {
-
-        }
-        function data() {
-
-            var result = document.getElementById("email").value
-            var pass = document.getElementById("password").value
-            if (result === "" || pass === "") {
-                alert("data enter lazmi")
-            } else {
-                var result = document.getElementById("email").value
-                var pass = document.getElementById("password").value
-                console.log(result, pass)
-            }
-        }
-    </script>
-    <style>
-        img {
-            cursor: pointer;
-        }
-    </style>
-</head>
-
+<html>
 <body>
-    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
-        </div>
-    </nav>
-    <div class="mb-3 custom">
-        <label for="formFile" class="form-label">Default file input example</label>
-        <input class="form-control" type="file" id="formFile">
-    </div>
-    <div class="mb-3">
-        <label for="formFileMultiple" class="form-label">Multiple files input example</label>
-        <input class="form-control" type="file" id="formFileMultiple" multiple>
-    </div>
-    <div class="mb-3">
-        <label for="formFileDisabled" class="form-label">Disabled file input example</label>
-        <input class="form-control" type="file" id="formFileDisabled" disabled>
-    </div>
-    <div class="mb-3">
-        <label for="formFileSm" class="form-label">Small file input example</label>
-        <input class="form-control form-control-sm" id="formFileSm" type="file">
-    </div>
-    <div>
-        <label for="formFileLg" class="form-label">Large file input example</label>
-        <input class="form-control form-control-lg" id="formFileLg" type="file">
-    </div>
-    <label for="exampleColorInput" class="form-label">Color picker</label>
-    <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c"
-        title="Choose your color"> -->
+<h1>JavaScript Functions</h1>
+<h2>Function Sequence</h2>
+<p>JavaScript functions are executed in the sequence they are called.</p>
 
-    <!-- <button onClick="popup()">SIGNUP</button>
-    <img src="./img.jpg" alt="image" width="300" onclick="popup()" />
-    <a href="#" onClick="alert('Hi');">Click</a>
-    <img src="./img.jpg" alt="image" width="300" onmouseover="src='./img2.jpg'" onmouseleave="src='./img.jpg'" />
-    <p id="loris" onMouseover="expand();">Slow Loris: Mouse over for more info</p>
-  <img src="./img.jpg" onMouseover="src='img2.jpg'" onMouseout="src='img.jpg'"> 
-    <input type="text" size="30" onFocus="this.style.color='yellow';" onBlur="this.style.backgroundColor='white';">
-    <input type="text" placeholder="enter your name " id="email" />
-    <input type="password" placeholder="enter your password" id="password"/>
-    <button onclick="data()">submit</button> -->
-    <!-- <div class="main">
-        <form class="row g-3 form" onsubmit="data(event)">
-            <h1>Login Form</h1>
-            <div class="col-md-12">
-                <label for="inputEmail4" class="form-label">Email</label>
-                <input type="email" class="form-control" id="inputEmail4">
-            </div>
-            <div class="col-md-12">
-                <label class="form-label">Password</label>
-                <input type="password" class="form-control" id="inputPassword4">
-            </div>
-            <div class="col-12">
-                <button type="submit" class="btn btn-primary">Sign in</button>
-            </div>
-        </form>
-    </div> -->
-    <!-- <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./assets/apartment-life-eXOTQ9lhJb0-unsplash.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="./assets/land-o-lakes-inc-MjH55Ef3w_0-unsplash.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="./assets/pjh-ZveRWp25lDk-unsplash.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div> -->
-    <h1 id="text" onClick="changeStyle()">hello world</h1>
-    <!-- <img src="./assets/img.jpg" alt="image" width="300" height="400" id="img" onClick="changeImage()"/> -->
-    <img src="./assets/img.jpg" alt="image" width="300" height="400" id="img" onmouseover="mouseover()" />
+<p>The result of the calculation is:</p>
+<p id="demo"></p>
 
+<script>
+function myDisplayer(some) {
+  document.getElementById("demo").innerHTML = some;
+}
 
-    <p>hello</p>
-    <p>world</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet ut dolor, distinctio ea unde ipsum quam eos aut,
-        dolorem fugit doloremque libero magni sunt facilis a, recusandae numquam cupiditate odit?</p>
+function myCalculator(num1, num2) {
+  let sum = num1 + num2;
+  myDisplayer(sum)
+}
 
+myCalculator(10,10);
+</script>
 
-    <script src="./script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
-        </script>
 </body>
-
 </html>

@@ -1,463 +1,463 @@
-// // // // console.log("moattar ")
-// // // // // alert("welcome to my class")
+// // // // // console.log("moattar ")
+// // // // // // alert("welcome to my class")
 
-// // // // var name = "manaheel"
-// // // // var username = "fabiha"
-// // // // console.log(username)
+// // // // // var name = "manaheel"
+// // // // // var username = "fabiha"
+// // // // // console.log(username)
 
-// // // // var lastname;  // declaration
-// // // // console.log(lastname) //undefined
+// // // // // var lastname;  // declaration
+// // // // // console.log(lastname) //undefined
 
-// // // // lastname = "akmal" //initialization
-// // // // console.log(lastname) //akmal
+// // // // // lastname = "akmal" //initialization
+// // // // // console.log(lastname) //akmal
 
-// // // // username = "john"
-// // // // console.log(username)
+// // // // // username = "john"
+// // // // // console.log(username)
 
-// // // // alert(username)
-
-
-// // // // var my_var = 43;
-// // // // var num2 = 40
-// // // // var num3 = 20
-// // // // var Total = num3 - num2
-// // // // var userName = "manaheel"
-// // // // console.log(Total)
-
-// // // // student name === bablu
-// // // // class === 5
-// // // // mathsMarks = 50/100
-// // // // english == 10/100
-// // // // urdu == 100/100 
+// // // // // alert(username)
 
 
-// // // // var mathsMarks = 50
-// // // // var englishMarks = 10
-// // // // var urduMarks = 100
-// // // // var total = 300
-// // // // var obtainedMarks = mathsMarks +englishMarks+ urduMarks
-// // // // var percentage =(obtainedMarks / total) * 100
-// // // // console.log(percentage)
+// // // // // var my_var = 43;
+// // // // // var num2 = 40
+// // // // // var num3 = 20
+// // // // // var Total = num3 - num2
+// // // // // var userName = "manaheel"
+// // // // // console.log(Total)
 
-// // // // var userName = "sparrow"
-// // // // alert("2"+userName)
-// // // // var userName = prompt("What is your name ???")
-// // // // var age = prompt("bhai kitny saal ky ho ???")
-// // // // var grade = prompt("bhai knsi class my ho ???")
-// // // // alert("Welcome " + userName + " in my class"+ "bhai ap " + age + " saal ky ho "+ "bhai ap " +grade+ " class my ho ")
-// // // // console.log(userName + age + grade)
+// // // // // student name === bablu
+// // // // // class === 5
+// // // // // mathsMarks = 50/100
+// // // // // english == 10/100
+// // // // // urdu == 100/100 
 
 
+// // // // // var mathsMarks = 50
+// // // // // var englishMarks = 10
+// // // // // var urduMarks = 100
+// // // // // var total = 300
+// // // // // var obtainedMarks = mathsMarks +englishMarks+ urduMarks
+// // // // // var percentage =(obtainedMarks / total) * 100
+// // // // // console.log(percentage)
 
-// // // // var userData = prompt("whats your age ????")
-// // // // if (userData >= 18){
-// // // //     console.log("welcome to my site you are allowed")
-// // // // } else{
-// // // //     console.log("you are not allowed")
+// // // // // var userName = "sparrow"
+// // // // // alert("2"+userName)
+// // // // // var userName = prompt("What is your name ???")
+// // // // // var age = prompt("bhai kitny saal ky ho ???")
+// // // // // var grade = prompt("bhai knsi class my ho ???")
+// // // // // alert("Welcome " + userName + " in my class"+ "bhai ap " + age + " saal ky ho "+ "bhai ap " +grade+ " class my ho ")
+// // // // // console.log(userName + age + grade)
+
+
+
+// // // // // var userData = prompt("whats your age ????")
+// // // // // if (userData >= 18){
+// // // // //     console.log("welcome to my site you are allowed")
+// // // // // } else{
+// // // // //     console.log("you are not allowed")
+// // // // // }
+
+// // // // // = // for assigning values
+// // // // // == // just compare  values
+// // // // // === // compare values and type both
+// // // // // !== //
+// // // // // !=
+// // // // // >
+// // // // // <
+// // // // // >=
+// // // // // =<
+
+// // // // // var age = prompt("what's your AGE") //20
+// // // // // var clas = prompt("what's your class") //8
+// // // // // var grade = prompt("what your grade")
+// // // // // // console.log(typeof(grade))
+// // // // // if (age > 18 || clas === 10 || grade == "A"){
+// // // // //     alert("allowed")
+// // // // // }
+// // // // // else{
+// // // // //     alert("not allowed")
+// // // // // }
+
+// // // // // var username1 = "sana"
+// // // // // var username2 = "huma"
+// // // // // // console.log(username1)
+
+// // // // // var studentName = ["sana","huma", "bisma"]
+// // // // // console.log(studentName, "raw array")
+
+// // // // // studentName.pop()
+// // // // // console.log(studentName, "remove element in the last ")
+
+// // // // // studentName.push("zara","aisha","ali")
+// // // // // console.log(studentName, "add three element in the last ")
+
+// // // // // studentName.shift()
+// // // // // console.log(studentName, "remove one element from the begining ")
+
+// // // // // studentName.unshift("rumesa", "liha")
+// // // // // console.log(studentName, "add two element from the begining ")
+
+// // // // // studentName.splice(4,1, "nimra")
+// // // // // console.log(studentName)
+
+// // // // // studentName.splice(5,0,"shakeel bhai")
+// // // // // console.log(studentName)
+
+// // // // // studentName.splice(3,2)
+// // // // // console.log(studentName)
+
+// // // // // studentName.splice(1,3,"manahil", "hania", "gafoor bhai")
+// // // // // console.log(studentName)
+// // // // // var newarray = studentName.slice(1,3)
+// // // // // console.log(newarray)
+
+
+// // // // // var num = 2
+// // // // // num++
+// // // // // console.log(num)
+
+
+// // // // // if (countryName[0] === "Saudia") {
+// // // // //     console.log("i found it ")
+// // // // // } else if (countryName[1] === "Saudia") {
+// // // // //     console.log("i found it ")
+// // // // // } else if (countryName[2] === "Saudia") {
+// // // // //     console.log("i found it ")
+// // // // // }
+// // // // // else if (countryName[3] === "Saudia") {
+// // // // //     console.log("i found it ")
+// // // // // }
+// // // // // else if (countryName[4] === "Saudia") {
+// // // // //     console.log("i found it ")
+// // // // // }
+// // // // // else {
+// // // // //     console.log("i didn't found")
+// // // // // }
+
+
+
+// // // // // var countryName = ["Pakistan", "Iran", "Saudia", "dubai", "Turkey"]
+
+// // // // // for (var i = 0; i<= 4; i++){
+// // // // // console.log(countryName[i])
+// // // // // }
+
+
+// // // // // let a = 8
+// // // // // let b = 5
+// // // // // console.log(a++) // 8
+// // // // // console.log(--b) // 4
+// // // // // console.log(--a) // 8
+// // // // // console.log(++a) // 9 
+// // // // // a = b
+// // // // // console.log(a++) // 9 
+// // // // // console.log(b++) //  9
+// // // // // console.log(a,b) // 10,10
+// // // // // var countryname = ["india", "pakistan", "turkey", "china", "iraq"]
+// // // // // console.log(countryname.length)
+// // // // // for (var i = 0; i <= countryname.length; i++) {
+// // // // //    if (countryname[i] === "pakistan"){
+// // // // //     console.log("found it!!!! ")
+// // // // //     break;
+// // // // //    }else{
+// // // // //     console.log("not found ")
+// // // // //    }
+// // // // // }
+// // // // // var userName = ["salman", "sharukh", "Rehman", "imran", "altaf"]
+// // // // // var lastName = ["khan", "khan", "dakait", "khan", "bhai"]
+// // // // // var fullName = []
+// // // // // for (var i = 0 ; i<userName.length ; i++){
+// // // // //     fullName.push(userName[i])
+
+// // // // // }
+// // // // // for (var j = 0 ; j<lastName.length ; j++){
+// // // // //     fullName.push(lastName[j])
+// // // // // }
+// // // // // console.log(fullName)
+
+
+// // // // // var userData = "manahil"
+// // // // // var data = prompt("what is your name ")
+// // // // // var updatedData = data.toLowerCase()
+// // // // // if (updatedData === "manahil" || updatedData === "manaheel" || updatedData === "mana") {
+// // // // //     alert("come in ")
+// // // // // } else {
+// // // // //     alert("not allowed ")
+// // // // // }
+
+
+// // // // // var array = ["red", "blue", "orange", "pink"]
+// // // // // for (var i = 0; i < array.length; i++) {
+// // // // //     console.log(array[i])
+// // // // // }
+
+
+// // // // function teaMaker(sugar, milk) {
+// // // //     // tea + sugar + milk
+// // // //     var tea = 1 + sugar + milk
+// // // //     return tea
 // // // // }
 
-// // // // = // for assigning values
-// // // // == // just compare  values
-// // // // === // compare values and type both
-// // // // !== //
-// // // // !=
-// // // // >
-// // // // <
-// // // // >=
-// // // // =<
-
-// // // // var age = prompt("what's your AGE") //20
-// // // // var clas = prompt("what's your class") //8
-// // // // var grade = prompt("what your grade")
-// // // // // console.log(typeof(grade))
-// // // // if (age > 18 || clas === 10 || grade == "A"){
-// // // //     alert("allowed")
-// // // // }
-// // // // else{
-// // // //     alert("not allowed")
-// // // // }
-
-// // // // var username1 = "sana"
-// // // // var username2 = "huma"
-// // // // // console.log(username1)
-
-// // // // var studentName = ["sana","huma", "bisma"]
-// // // // console.log(studentName, "raw array")
-
-// // // // studentName.pop()
-// // // // console.log(studentName, "remove element in the last ")
-
-// // // // studentName.push("zara","aisha","ali")
-// // // // console.log(studentName, "add three element in the last ")
-
-// // // // studentName.shift()
-// // // // console.log(studentName, "remove one element from the begining ")
-
-// // // // studentName.unshift("rumesa", "liha")
-// // // // console.log(studentName, "add two element from the begining ")
-
-// // // // studentName.splice(4,1, "nimra")
-// // // // console.log(studentName)
-
-// // // // studentName.splice(5,0,"shakeel bhai")
-// // // // console.log(studentName)
-
-// // // // studentName.splice(3,2)
-// // // // console.log(studentName)
-
-// // // // studentName.splice(1,3,"manahil", "hania", "gafoor bhai")
-// // // // console.log(studentName)
-// // // // var newarray = studentName.slice(1,3)
-// // // // console.log(newarray)
-
-
-// // // // var num = 2
-// // // // num++
-// // // // console.log(num)
-
-
-// // // // if (countryName[0] === "Saudia") {
-// // // //     console.log("i found it ")
-// // // // } else if (countryName[1] === "Saudia") {
-// // // //     console.log("i found it ")
-// // // // } else if (countryName[2] === "Saudia") {
-// // // //     console.log("i found it ")
-// // // // }
-// // // // else if (countryName[3] === "Saudia") {
-// // // //     console.log("i found it ")
-// // // // }
-// // // // else if (countryName[4] === "Saudia") {
-// // // //     console.log("i found it ")
-// // // // }
-// // // // else {
-// // // //     console.log("i didn't found")
+// // // // console.log(teaMaker(1, 8))
+// // // // var result = teaMaker(2, 4)
+// // // // console.log(result)
+// // // // background: linear-gradient(180deg, #FF3B64 0%, #FFC371 100%);
+// // // // var percentage = Number(prompt("what's your percentage "));
+// // // // switch(true) {
+// // // //     case percentage >= 80:
+// // // //         alert("A+")
+// // // //         break;
+// // // //     case percentage >= 70:
+// // // //         alert("A")
+// // // //         break;
+// // // //     case percentage >= 60:
+// // // //         alert("B")
+// // // //         break;
+// // // //     case percentage >= 50:
+// // // //         alert("C")
+// // // //         break;
+// // // //     default:
+// // // //         alert("you are failed")
 // // // // }
 
-
-
-// // // // var countryName = ["Pakistan", "Iran", "Saudia", "dubai", "Turkey"]
-
-// // // // for (var i = 0; i<= 4; i++){
-// // // // console.log(countryName[i])
-// // // // }
-
-
-// // // // let a = 8
-// // // // let b = 5
-// // // // console.log(a++) // 8
-// // // // console.log(--b) // 4
-// // // // console.log(--a) // 8
-// // // // console.log(++a) // 9 
-// // // // a = b
-// // // // console.log(a++) // 9 
-// // // // console.log(b++) //  9
-// // // // console.log(a,b) // 10,10
-// // // // var countryname = ["india", "pakistan", "turkey", "china", "iraq"]
-// // // // console.log(countryname.length)
-// // // // for (var i = 0; i <= countryname.length; i++) {
-// // // //    if (countryname[i] === "pakistan"){
-// // // //     console.log("found it!!!! ")
-// // // //     break;
-// // // //    }else{
-// // // //     console.log("not found ")
-// // // //    }
-// // // // }
-// // // // var userName = ["salman", "sharukh", "Rehman", "imran", "altaf"]
-// // // // var lastName = ["khan", "khan", "dakait", "khan", "bhai"]
-// // // // var fullName = []
-// // // // for (var i = 0 ; i<userName.length ; i++){
-// // // //     fullName.push(userName[i])
-
-// // // // }
-// // // // for (var j = 0 ; j<lastName.length ; j++){
-// // // //     fullName.push(lastName[j])
-// // // // }
-// // // // console.log(fullName)
-
-
-// // // // var userData = "manahil"
-// // // // var data = prompt("what is your name ")
-// // // // var updatedData = data.toLowerCase()
-// // // // if (updatedData === "manahil" || updatedData === "manaheel" || updatedData === "mana") {
-// // // //     alert("come in ")
-// // // // } else {
-// // // //     alert("not allowed ")
-// // // // }
-
-
-// // // // var array = ["red", "blue", "orange", "pink"]
-// // // // for (var i = 0; i < array.length; i++) {
-// // // //     console.log(array[i])
-// // // // }
-
-
-// // // function teaMaker(sugar, milk) {
-// // //     // tea + sugar + milk
-// // //     var tea = 1 + sugar + milk
-// // //     return tea
+// // // var num = 7 
+// // // function add(){
+// // //     var sum = 5 
 // // // }
+// // // add()
+// // // console.log(sum)
 
-// // // console.log(teaMaker(1, 8))
-// // // var result = teaMaker(2, 4)
-// // // console.log(result)
-// // // background: linear-gradient(180deg, #FF3B64 0%, #FFC371 100%);
-// // // var percentage = Number(prompt("what's your percentage "));
-// // // switch(true) {
-// // //     case percentage >= 80:
-// // //         alert("A+")
-// // //         break;
-// // //     case percentage >= 70:
-// // //         alert("A")
-// // //         break;
-// // //     case percentage >= 60:
-// // //         alert("B")
-// // //         break;
-// // //     case percentage >= 50:
-// // //         alert("C")
-// // //         break;
-// // //     default:
-// // //         alert("you are failed")
-// // // }
 
-// // var num = 7 
-// // function add(){
-// //     var sum = 5 
+// // for (var i = 0; i < 10; i++) {
+// //     console.log(i)
 // // }
-// // add()
-// // console.log(sum)
+// // var i = 0;
+// // while (i < 10) {
+// //     console.log(i)
+// //     i++
+// // }
 
+// // var i =0;
+// // do {
+// //     console.log(i)
+// //     i++;
+// // }while(i < 0)
 
-// for (var i = 0; i < 10; i++) {
-//     console.log(i)
-// }
-// var i = 0;
-// while (i < 10) {
-//     console.log(i)
-//     i++
-// }
-
-// var i =0;
-// do {
-//     console.log(i)
-//     i++;
-// }while(i < 0)
-
-// function data(event) {
-//         event.preventDefault(); 
-//     var user = document.getElementById("inputEmail4").value
-//     var password = document.getElementById("inputPassword4").value
-//     console.log(user, password)
-// }
+// // function data(event) {
+// //         event.preventDefault(); 
+// //     var user = document.getElementById("inputEmail4").value
+// //     var password = document.getElementById("inputPassword4").value
+// //     console.log(user, password)
+// // }
 
 
 
-// objects
-// var userName = prompt("what is your name ?",'john')
-// var studentData = {
-//     name: "userName",
-//     class: 5,
-//     age: 15,
-//     gender: "male",
-//     method: function () {
-//         console.log(this.name, "he can eat ")
-//     }
-// }
-// studentData.class = 8
-// studentData.school = "ABC School",
-//     delete studentData.class
-// studentData.method()
-// var data = [
-//     {
-//         name: "userName",
-//         class: 5,
-//         age: 15,
-//         gender: "male",
-//         method: function () {
-//             console.log(this.name, "he can eat ")
-//         }
-//     },
-//     {
-//         name: "userName",
-//         class: 5,
-//         age: 15,
-//         gender: "male",
-//         method: function () {
-//             console.log(this.name, "he can eat ")
-//         }
-//     },
-//     {
-//         name: "userName",
-//         class: 5,
-//         age: 15,
-//         gender: "male",
-//         method: function () {
-//             console.log(this.name, "he can eat ")
-//         }
-//     }
-// ]
-// console.log(data[2].gender)
-// var plan1 = {
-//     name: "basic",
-//     rate: "20$",
-//     quantity: "20 pages"
-// }
-// var plan2 = {
-//     name: "pro",
-//     rate: "40$",
-//     quantity: "40 pages"
-// }
-// var plan3 = {
-//     name: "premium",
-//     rate: "60$",
-//     quantity: "60 pages"
-// }
-// console.log(
-//     "username" in plan3
-// )
-// function Plan(name, rate, quantity) {
-//     this.userName = name,
-//         this.price = rate,
-//         this.quantity = quantity,
-//         Plan.prototype.calculate = function () {
-//             return this.price * 2
-//         }
-// }
+// // objects
+// // var userName = prompt("what is your name ?",'john')
+// // var studentData = {
+// //     name: "userName",
+// //     class: 5,
+// //     age: 15,
+// //     gender: "male",
+// //     method: function () {
+// //         console.log(this.name, "he can eat ")
+// //     }
+// // }
+// // studentData.class = 8
+// // studentData.school = "ABC School",
+// //     delete studentData.class
+// // studentData.method()
+// // var data = [
+// //     {
+// //         name: "userName",
+// //         class: 5,
+// //         age: 15,
+// //         gender: "male",
+// //         method: function () {
+// //             console.log(this.name, "he can eat ")
+// //         }
+// //     },
+// //     {
+// //         name: "userName",
+// //         class: 5,
+// //         age: 15,
+// //         gender: "male",
+// //         method: function () {
+// //             console.log(this.name, "he can eat ")
+// //         }
+// //     },
+// //     {
+// //         name: "userName",
+// //         class: 5,
+// //         age: 15,
+// //         gender: "male",
+// //         method: function () {
+// //             console.log(this.name, "he can eat ")
+// //         }
+// //     }
+// // ]
+// // console.log(data[2].gender)
+// // var plan1 = {
+// //     name: "basic",
+// //     rate: "20$",
+// //     quantity: "20 pages"
+// // }
+// // var plan2 = {
+// //     name: "pro",
+// //     rate: "40$",
+// //     quantity: "40 pages"
+// // }
+// // var plan3 = {
+// //     name: "premium",
+// //     rate: "60$",
+// //     quantity: "60 pages"
+// // }
+// // console.log(
+// //     "username" in plan3
+// // )
+// // function Plan(name, rate, quantity) {
+// //     this.userName = name,
+// //         this.price = rate,
+// //         this.quantity = quantity,
+// //         Plan.prototype.calculate = function () {
+// //             return this.price * 2
+// //         }
+// // }
 
-// var plan1 = new Plan("basic", 20, "20 pages")
-// var plan2 = new Plan("pro", "40$", "40 pages")
-// var plan3 = new Plan("premium", "60$", "60 pages")
+// // var plan1 = new Plan("basic", 20, "20 pages")
+// // var plan2 = new Plan("pro", "40$", "40 pages")
+// // var plan3 = new Plan("premium", "60$", "60 pages")
 
-// console.log(plan1.calculate())
-
-
-
-// advance javascript
-// var userName = "admin"
-//  userName = "john"
+// // console.log(plan1.calculate())
 
 
-// let userName = "admin"
-//  userName = "john"
 
-//  const userData = "admin"
-//  userData = "john "
+// // advance javascript
+// // var userName = "admin"
+// //  userName = "john"
 
 
-//  template literals
-// var data = "admin "
-// console.log("my name is " + data )
-// console.log(`My name is ${data}. i am 10 years old `)
+// // let userName = "admin"
+// //  userName = "john"
+
+// //  const userData = "admin"
+// //  userData = "john "
+
+
+// //  template literals
+// // var data = "admin "
+// // console.log("my name is " + data )
+// // console.log(`My name is ${data}. i am 10 years old `)
 
 
 
 
-//------------------>// Arrow function 
+// //------------------>// Arrow function 
 
-// function userData() {
-//     console.log("hello world")
-// }
-// userData()
+// // function userData() {
+// //     console.log("hello world")
+// // }
+// // userData()
 
-// let userDataForm = (a, b) => {
-//     var result = a + b
-//     console.log(result)
-// }
-// userDataForm(1, 2)
+// // let userDataForm = (a, b) => {
+// //     var result = a + b
+// //     console.log(result)
+// // }
+// // userDataForm(1, 2)
 
-// let userDataForm2 = (a, b) => console.log(a+b)
-// userDataForm2(1, 2)
+// // let userDataForm2 = (a, b) => console.log(a+b)
+// // userDataForm2(1, 2)
 
-// function userData(num1, num2) {
-//     this.num1 = num1,
-//         this.num2 = num2
-// }
-// const result = new userData(2, 3)
-// console.log(result)
+// // function userData(num1, num2) {
+// //     this.num1 = num1,
+// //         this.num2 = num2
+// // }
+// // const result = new userData(2, 3)
+// // console.log(result)
 
 
-// let data = (studentName)=>{
-//     this.name = studentName
-// }
-// const result = new data(2)
-// console.log(result)
+// // let data = (studentName)=>{
+// //     this.name = studentName
+// // }
+// // const result = new data(2)
+// // console.log(result)
 
-// const obj ={
-//     name:"john",
-//     age:24,
+// // const obj ={
+// //     name:"john",
+// //     age:24,
+// //     gender:"male", 
+// //     method: function(){
+// //         console.log(this.name)
+// //     }
+// // }
+// // obj.method()
+
+
+// // const obj ={
+// //     name:"john",
+// //     age:24,
+// //     gender:"male", 
+// //     method: function (){
+// //         let data = ()=>{
+// //             console.log(this.name)
+// //         }
+// //         data()
+// //     }
+// // }
+// // obj.method()
+
+
+// //  ------->default parameters
+
+// // function data(num = "john",age =2){
+// //     console.log(num,age)
+// // }
+// // data("admin",10)
+
+
+// //spread operators
+
+// // var arr1 = [1, 2, 4, 5, 6, 8]
+// // var arr2 = [5, 7, 3, 2, 5, 6]
+// // var result = [...arr1, ...arr2, 10, 2, 4, 7, 5, 3,]
+// // console.log(result)
+
+// // const male = {
+// //     age: 20,
+// //     class: 16
+// // }
+// // const data = {
+// //     name:"john", 
+// //     ...male
+// // }
+// // console.log(data)
+
+
+// // function responsiblity (a,b,c,d,e){
+// // console.log(a,b,c,d,e)
+// // }
+// // var arr =[1,2,34,5,7,8]
+// // responsiblity(...arr)
+
+
+// //rest operators
+// // collect values
+// // many to one
+// // destrcutring objects and functions parameters
+
+// const studentData = {
+//     name:"admin", 
+//     age:20, 
 //     gender:"male", 
-//     method: function(){
-//         console.log(this.name)
-//     }
+//     school:"abc school", 
 // }
-// obj.method()
+// const { ...others} = studentData
+// // console.log(name)
+// console.log(others)
 
-
-// const obj ={
-//     name:"john",
-//     age:24,
-//     gender:"male", 
-//     method: function (){
-//         let data = ()=>{
-//             console.log(this.name)
-//         }
-//         data()
-//     }
+// function restOperators(a,d,...num){
+//     console.log(a)
+//     console.log(d)
+//     console.log(num)
 // }
-// obj.method()
-
-
-//  ------->default parameters
-
-// function data(num = "john",age =2){
-//     console.log(num,age)
-// }
-// data("admin",10)
-
-
-//spread operators
-
-// var arr1 = [1, 2, 4, 5, 6, 8]
-// var arr2 = [5, 7, 3, 2, 5, 6]
-// var result = [...arr1, ...arr2, 10, 2, 4, 7, 5, 3,]
-// console.log(result)
-
-// const male = {
-//     age: 20,
-//     class: 16
-// }
-// const data = {
-//     name:"john", 
-//     ...male
-// }
-// console.log(data)
-
-
-// function responsiblity (a,b,c,d,e){
-// console.log(a,b,c,d,e)
-// }
-// var arr =[1,2,34,5,7,8]
-// responsiblity(...arr)
-
-
-//rest operators
-// collect values
-// many to one
-// destrcutring objects and functions parameters
-
-const studentData = {
-    name:"admin", 
-    age:20, 
-    gender:"male", 
-    school:"abc school", 
-}
-const { ...others} = studentData
-// console.log(name)
-console.log(others)
-
-function restOperators(a,d,...num){
-    console.log(a)
-    console.log(d)
-    console.log(num)
-}
-const arr = [1,2,4,5,7,9,0,5,3,2,5]
-restOperators(...arr)
+// const arr = [1,2,4,5,7,9,0,5,3,2,5]
+// restOperators(...arr)
