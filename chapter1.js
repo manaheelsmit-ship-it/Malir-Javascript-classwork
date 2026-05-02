@@ -15,15 +15,15 @@
 // Callback function
 
 
-function user(userName) {
-    console.log("hello " + userName)
-}
+// function user(userName) {
+//     console.log("hello " + userName)
+// }
 
-function output(last) {
-    let name = "manaheel"
-    last(name)
-}
-output(user)
+// function output(last) {
+//     let name = "manaheel"
+//     last(name)
+// }
+// output(user)
 
 
 
@@ -120,14 +120,52 @@ output(user)
 // console.log(newSet.size)
 // console.log(newSet)
 
-const newMap = new Map([
-    ["name", "john"], 
-    ["age",43]
-])
-newMap.set("city", "karachi")
-console.log(newMap.get("name"))
-console.log(newMap.has("age"))
-newMap.delete("name")
-newMap.clear()
-console.log(newMap.size)
-console.log(newMap)
+// const newMap = new Map([
+//     ["name", "john"], 
+//     ["age",43]
+// ])
+// newMap.set("city", "karachi")
+// console.log(newMap.get("name"))
+// console.log(newMap.has("age"))
+// newMap.delete("name")
+// newMap.clear()
+// console.log(newMap.size)
+// console.log(newMap)
+
+
+// var array = [1, 2, 3, 4, 6, 7, 64, 3]
+// array.forEach((data,index)=>console.log(data,index))
+
+// const prices = [100,200,300];
+// const discounted = prices.map(price => price * 0.9);
+// console.log(discounted)
+
+
+// const numbers=[10,20,30,40];
+// const result = numbers.filter(n => n > 20);
+// console.log(result);
+
+// const users=[{id:1,name:"manaheel"},{id:2, name:"john"}];
+// const user = users.find(data=>data.id===2);
+// console.log(user);
+
+// const nums=[10,20,30];
+// const total = nums.reduce((data,num)=>console.log(data,num));
+// console.log(total)
+
+// // Returns true if ANY element matches.
+// const nums=[1,3,5,8];
+// console.log(nums.some(n=>n%2===0));
+
+// const nums=[2,4,6,3];
+// console.log(nums.every(n=>n%2===0));
+
+// const arr=["JS","React"];
+// console.log(arr.includes("mana"));
+
+// const nums=[5,2,9];
+// nums.sort((a,b)=>b-a);
+// console.log(nums);
+
+const arr=[1,[2,[3,[6]]]];
+console.log(arr.flat(2));
