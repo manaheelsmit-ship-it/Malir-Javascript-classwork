@@ -167,5 +167,45 @@
 // nums.sort((a,b)=>b-a);
 // console.log(nums);
 
-const arr=[1,[2,[3,[6]]]];
-console.log(arr.flat(2));
+// const arr=[1,[2,[3,[6]]]];
+// console.log(arr.flat(2));
+
+// console.log(a)
+// let a = 5
+// // data()
+// // function data(){
+// //     console.log("data")
+// // }
+
+// declaration
+
+// initialization 
+
+// var a ;
+// a = 8
+// SHALLOW COPY
+// const original = [
+//   { id: 1, name: "Sagar" },
+//   { id: 2, name: "Raj" }
+// ];
+
+// const shallowCopy = [...original];
+
+// // Now change a nested property
+// shallowCopy[0].name = "Aman";
+// console.log(original[0].name); //
+
+
+// HEAP MEMORY 
+
+// const original = [
+//   { id: 1, name: "Sagar" },
+//   { id: 2, name: "Raj" }
+// ];
+
+// const deepCopy = original.map(item => ({ ...item }));
+
+// deepCopy[0].name = "Aman";
+
+// console.log(original[0].name); // ✅ "Sagar" → original not affected
+// console.log(deepCopy[0].name); // ✅ 
