@@ -209,3 +209,55 @@
 
 // console.log(original[0].name); // ✅ "Sagar" → original not affected
 // console.log(deepCopy[0].name); // ✅ 
+
+//for of // for in loop
+// const fruits = ["apple", "banana", "mango"];
+
+// for (const element of fruits){
+//     console.log(element)
+// }
+
+// const object = { a: 1, b: 2, c: 3 };
+
+// for ( let  j  of object){
+//     console.log(j)
+//
+
+
+// console.log("jhdfuiaj")
+// console.log("jhdfuiaj")
+
+// console.log("jhdfuiaj")
+
+// console.log("jhdfuiaj")
+// // take 1 minute 
+// console.log("jhdfuiaj")
+// console.log("jhdfuiaj")
+
+// console.log("jhdfuiaj")
+
+// console.log("jhdfuiaj")
+// // check value if trueconsole.log("jhdfuiaj")
+// console.log("jhdfuiaj")
+
+// console.log("jhdfuiaj")
+
+// console.log("jhdfuiaj")
+
+function placeOrder(food) {
+    return new Promise((resolve, reject) => {
+        let checkOrder = true
+        if (checkOrder) {
+            resolve("yes received")
+        } else {
+            reject("not received")
+        }
+    })
+}
+newPromise
+    .then(console.log("message"))
+    .then(console.log("message"))
+    .then(console.log("message"))
+    .then(console.log("message"))
+    .then(console.log("message"))
+    .catch((error) => console.log(error))
