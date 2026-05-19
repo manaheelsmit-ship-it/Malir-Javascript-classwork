@@ -244,20 +244,47 @@
 
 // console.log("jhdfuiaj")
 
-function placeOrder(food) {
-    return new Promise((resolve, reject) => {
-        let checkOrder = true
-        if (checkOrder) {
-            resolve("yes received")
-        } else {
-            reject("not received")
-        }
-    })
-}
-newPromise
-    .then(console.log("message"))
-    .then(console.log("message"))
-    .then(console.log("message"))
-    .then(console.log("message"))
-    .then(console.log("message"))
-    .catch((error) => console.log(error))
+// function placeOrder(food) {
+//     return new Promise((resolve, reject) => {
+//         let checkOrder = true
+//         if (checkOrder) {
+//             resolve("yes received")
+//         } else {
+//             reject("not received")
+//         }
+//     })
+// }
+// newPromise
+//     .then(console.log("message"))
+//     .then(console.log("message"))
+//     .then(console.log("message"))
+//     .then(console.log("message"))
+//     .then(console.log("message"))
+//     .catch((error) => console.log(error))
+
+
+
+// async function getData() {
+//     try {
+//         const responce = await fetch("https://dummyjson.com/products")
+//         const convert = await responce.json()
+//         const data = convert.products.map(product => product.title)
+//         console.log(data)
+//     }
+//     catch (error) {
+//         console.log(`error ${error}`)
+//     }
+// }
+// getData()
+// async function data(params) {
+//     return params
+// }
+// data().then(console.log("data"))
+
+// console.log('Start');
+// setTimeout(() => { console.log('Timeout'); }, 2000);
+// console.log('End');
+console.log('Start');
+setTimeout(() => console.log('setTimeout'), 0);
+Promise.resolve().then(() => console.log('Promise'));
+console.log('End');
